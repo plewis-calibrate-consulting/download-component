@@ -1,5 +1,25 @@
-.App {
+.download {
   text-align: center;
+}
+.image {
+  display: inline-block;
+}
+.screenshot {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.screenshot button {
+  background-color: slateblue;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 7px;
+  color: white;
+}
+
+.screenshot button:hover {
+  background-color: rgb(89, 74, 182);
 }
 
 .App-logo {
